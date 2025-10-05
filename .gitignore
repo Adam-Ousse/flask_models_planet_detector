@@ -179,3 +179,4 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+datasets/k2pandc_2025.09.27_11.09.23.csv
