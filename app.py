@@ -14,12 +14,16 @@ app = Flask(__name__)
 # Model configuration - maps dataset types to their model and preprocessor files
 MODEL_CONFIG = {
     "kepler": {
-        "model": "models/k2_logistic_model.joblib",
-        "preprocessor": "preprocessors/k2_preprocessor.joblib"
+        "model": "models/kep_logistic_model.joblib",
+        "preprocessor": "preprocessors/kep_preprocessor.joblib"
     },
     "k2": {
         "model": "models/k2_logistic_model.joblib",
         "preprocessor": "preprocessors/k2_preprocessor.joblib"
+    },
+    "tess": {
+        "model": "models/tess_mlp_model.joblib",
+        "preprocessor": "preprocessors/tess_preprocessor.joblib"
     }
 }
 
